@@ -1,18 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mouse Events</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:500|Kanit|Vollkorn:700&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/8bc5acd820.js"></script>
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="./assets/stylesheets/main.css">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mouse Events</title>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:500|Kanit|Vollkorn:700&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/8bc5acd820.js"></script>
+        <!-- Stylesheets -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"
+        />
+        <link rel="stylesheet" href="./assets/stylesheets/main.css">
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <h1 class="heading">
+                JS Events Made Easy
+            </h1>
+        </header>
+        <!-- Main -->
+        <main class="main">
+            <section class="wrapper">
+                <div class="events grid-col-2">
+                    <!-- Mousedown/Mouseup -->
+                    <aside class="event mousedown">
+                    </aside>
+                    <aside class="event-description">
+                        <h2 class="sub-heading">
+                            Mousedown/Mouseup
+                        </h2>
+                        <p class="about">
+                            Mouse button is clicked/released over an element.
+                        </p>
+<pre>
+<code class="language-js"><!-- 
+-->element.addEventListener('mouseover' , (e) => {
+    element.style.background = `Red`;
+});
+</code>
+</pre>
+                    </aside>
+                    <!-- Mouseover/Mouseout -->
+                    <aside class="event-description">
+                        <h2 class="sub-heading">
+                            Mouseover/Mouseout
+                        </h2>
+                        <p class="about">
+                            Mouse pointer comes over/out from an element.
+                        </p>
+<pre>
+<code class="language-js"><!-- 
+-->element.addEventListener('mousedown' , (e) => {
+    element.style.background = `Red`;
+});
+</code>
+</pre>
+                    </aside>
+                    <aside class="event mouseover">
+                    </aside>
+                    <!-- Mousemove -->
+                    <aside class="event mousemove">
+                    </aside>
+                    <aside class="event-description">
+                        <h2 class="sub-heading">
+                            Mousemove
+                        </h2>
+                        <p class="about">
+                            Every mouse move over an element triggers that event.
+                        </p>
+<pre>
+<code class="language-js"><!-- 
+-->element.addEventListener('mousemove' , (e) => {
+    element.style.background = `Red`;
+});
+</code>
+</pre>
+                    </aside>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="footer wrapper flex-center">
+            <nav class="nav">
+                <ul class="links flex-center">
+                    <li class="link">
+                        <a href="https://twitter.com/shahr_96" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="https://github.com/chaharshivam" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="https://www.linkedin.com/in/shivamchahar/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="https://shivamchahar.me" target="_blank">
+                            <i class="fas fa-blog"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p><small>&copy;</small> No rights reserved.</p>
+            </nav>
+        </footer>
+        <script src="./assets/scripts/script.js"></script>
+    </body>
 </html>
