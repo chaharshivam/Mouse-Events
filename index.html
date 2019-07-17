@@ -43,7 +43,7 @@
                             </p>
 <pre>
 <code class="language-js"><!-- 
--->element.addEventListener('mouseover' , (e) => {
+-->element.addEventListener('mousedown' , (e) => {
 element.style.background = `Red`;
 });
 </code>
@@ -61,7 +61,7 @@ element.style.background = `Red`;
                             </p>
 <pre>
 <code class="language-js"><!-- 
--->element.addEventListener('mousedown' , (e) => {
+-->element.addEventListener('mouseover' , (e) => {
     element.style.background = `Red`;
 });
 </code>
@@ -88,6 +88,66 @@ element.style.background = `Red`;
 });
 </code>
 </pre>
+                        </aside>
+                    </div>
+                    <!-- Click -->
+                    <div class="grid-col-2">
+                        <aside class="event-description">
+                            <h2 class="sub-heading">
+                                Click
+                            </h2>
+                            <p class="about">
+                                Triggers after mousedown and then mouseup over the same element if the left mouse button was used.
+                            </p>
+<pre>
+<code class="language-js"><!-- 
+-->element.addEventListener('click' , (e) => {
+    element.style.background = `Red`;
+});
+</code>
+</pre>
+                        </aside>
+                        <aside class="event click">
+                        </aside>
+                    </div>
+                    <!-- Double Click -->
+                    <div class="grid-col-2">
+                        <aside class="event doubleclick">
+                        </aside>
+                        <aside class="event-description">
+                            <h2 class="sub-heading">
+                                Double Click
+                            </h2>
+                            <p class="about">
+                                Triggers after a double click over an element.
+                            </p>
+<pre>
+<code class="language-js"><!-- 
+-->element.addEventListener('dblclick' , (e) => {
+    element.style.background = `Red`;
+});
+</code>
+</pre>
+                        </aside>
+                    </div>
+                    <!-- Context Menu -->
+                    <div class="grid-col-2">
+                        <aside class="event-description">
+                            <h2 class="sub-heading">
+                                Context Menu
+                            </h2>
+                            <p class="about">
+                                Triggers after mousedown if the right mouse button was used.
+                            </p>
+<pre>
+<code class="language-js"><!-- 
+-->element.addEventListener('contextmenu' , (e) => {
+    element.style.background = `Red`;
+});
+</code>
+</pre>
+                        </aside>
+                        <aside class="event context">
                         </aside>
                     </div>
                 </div>
