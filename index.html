@@ -29,33 +29,36 @@
         <!-- Main -->
         <main class="main">
             <section class="wrapper">
-                <div class="events grid-col-2">
+                <div class="events">
                     <!-- Mousedown/Mouseup -->
-                    <aside class="event mousedown">
-                    </aside>
-                    <aside class="event-description">
-                        <h2 class="sub-heading">
-                            Mousedown/Mouseup
-                        </h2>
-                        <p class="about">
-                            Mouse button is clicked/released over an element.
-                        </p>
+                    <div class="grid-col-2">
+                        <aside class="event mousedown">
+                        </aside>
+                        <aside class="event-description">
+                            <h2 class="sub-heading">
+                                Mousedown/Mouseup
+                            </h2>
+                            <p class="about">
+                                Mouse button is clicked/released over an element.
+                            </p>
 <pre>
 <code class="language-js"><!-- 
 -->element.addEventListener('mouseover' , (e) => {
-    element.style.background = `Red`;
+element.style.background = `Red`;
 });
 </code>
 </pre>
-                    </aside>
+                        </aside>
+                    </div>
                     <!-- Mouseover/Mouseout -->
-                    <aside class="event-description">
-                        <h2 class="sub-heading">
-                            Mouseover/Mouseout
-                        </h2>
-                        <p class="about">
-                            Mouse pointer comes over/out from an element.
-                        </p>
+                    <div class="grid-col-2">
+                        <aside class="event-description">
+                            <h2 class="sub-heading">
+                                Mouseover/Mouseout
+                            </h2>
+                            <p class="about">
+                                Mouse pointer comes over/out from an element.
+                            </p>
 <pre>
 <code class="language-js"><!-- 
 -->element.addEventListener('mousedown' , (e) => {
@@ -63,19 +66,21 @@
 });
 </code>
 </pre>
-                    </aside>
-                    <aside class="event mouseover">
-                    </aside>
+                        </aside>
+                        <aside class="event mouseover">
+                        </aside>
+                    </div>
                     <!-- Mousemove -->
-                    <aside class="event mousemove">
-                    </aside>
-                    <aside class="event-description">
-                        <h2 class="sub-heading">
-                            Mousemove
-                        </h2>
-                        <p class="about">
-                            Every mouse move over an element triggers that event.
-                        </p>
+                    <div class="grid-col-2">
+                        <aside class="event mousemove">
+                        </aside>
+                        <aside class="event-description">
+                            <h2 class="sub-heading">
+                                Mousemove
+                            </h2>
+                            <p class="about">
+                                Every mouse move over an element triggers that event.
+                            </p>
 <pre>
 <code class="language-js"><!-- 
 -->element.addEventListener('mousemove' , (e) => {
@@ -83,7 +88,8 @@
 });
 </code>
 </pre>
-                    </aside>
+                        </aside>
+                    </div>
                 </div>
             </section>
         </main>
