@@ -1,4 +1,8 @@
 @import "./lib/reset";
+@import "./lib/vars";
 @import "./lib/base";
 @import "./lib/grid";
-@import "./lib/vars";
+
+@import "./header";
+@import "./homepage";
+@import "./footer";
