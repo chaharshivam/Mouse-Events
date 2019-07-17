@@ -1,0 +1,39 @@
+.events {
+    padding: 2rem;
+}
+
+.grid-col-2 {
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+}
+
+.event-description {
+    padding: 0.5rem;
+
+    pre, code {
+        display: inline-block;
+        width: 100%;
+        @include border-radius(0.5rem);
+    }
+}
+
+.about {
+    margin-bottom: 1rem;
+}
+
+.sub-heading {
+    color: $green;
+    font-family: $fontSubheading;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.event {
+    @include border-radius(0.5rem);
+    width: 90%;
+    height: 300px;
+    background: $white;
+    border: 1px solid rgba($lightblue, $alpha: 0.3);
+    box-shadow: $shadow;
+    margin: 0 auto;
+}
