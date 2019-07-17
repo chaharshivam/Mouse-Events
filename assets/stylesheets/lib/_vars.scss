@@ -1,9 +1,19 @@
-$green: #CDE7B0;
-$lightblue: #A3BFA8;
+$green: #444554;
+$coral: #555B6E;
+$lightblue: #9FB7B9;
 $blue: #7286A0;
-$orange: #BE6E46;
-$grey: #59594A;
-
+$grey: #2C3535;
+$white: #FFFFFA;
 $fontHeading: 'Vollkorn', serif;
 $fontSubheading: 'Fira Sans', sans-serif;
-$fontPrimary: 'Kanit', sans-serif; 
+$fontPrimary: 'Kanit', sans-serif;
+
+$shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
+
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
