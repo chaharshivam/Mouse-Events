@@ -1,0 +1,22 @@
+.footer {
+    flex-direction: column;
+
+    p {
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+        text-align: center;
+    }
+}
+
+.link {
+    margin: 0 1rem;
+
+    a {
+        color: $coral;
+        font-size: 1.25rem;
+        box-shadow: $shadow;
+        &:hover {
+            color: $grey;
+        }
+    }
+}
